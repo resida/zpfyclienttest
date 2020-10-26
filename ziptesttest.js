@@ -7675,7 +7675,7 @@
         this.enableAddToCartButton();
         e = St.itemSelector("productQuantity"),
 
-        window.location.href = 'http://www.google.com/' + e + '/' + t + 'string 1' string(this.selectedVariantOptions()) + 'string2' string(St.itemSelector("productQuantity"));
+        window.location.href = 'http://www.google.com/' + e + '/' + t + 'string 1' + string(this.selectedVariantOptions()) + 'string2' + string(St.itemSelector("productQuantity"));
         console.error('This is an error');
 
         return this.messenger.showMessage(e, !1), t
